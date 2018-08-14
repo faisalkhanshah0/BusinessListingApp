@@ -25,8 +25,13 @@ let response = {
     data: [],
     message: null
 };
-
-// Get user
+//test routes
+router.get('/users', (req, res) => {
+  res.json({
+      message : 'success'
+  });
+})
+// Get users
 router.get('/users', (req, res) => {
     connection((db) => {
         db.collection('users')
