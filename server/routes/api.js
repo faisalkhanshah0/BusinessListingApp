@@ -1,4 +1,4 @@
-var dauth = 'frs_business_listing_app_db';
+var dauth = 'admin';
 var unamy = 'random';
 var dbata = 'frs_business_listing_app_db';
 const express = require('express');
