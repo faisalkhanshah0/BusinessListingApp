@@ -28,7 +28,7 @@ let response = {
 //test routes
 router.get('/', (req, res) => {
   res.json({
-      message : 'success'
+      message : 'success hurray'
   });
 })
 // Get users
