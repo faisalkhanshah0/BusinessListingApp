@@ -1,0 +1,15 @@
+{
+    "apps": [
+            {
+            "name": "BusinessListingApp",
+            "script": "server.js",
+            "cwd": "/opt/BusinessListingApp",
+    "instances" : "max",
+    "exec_mode" : "cluster",
+    "env": {
+                    "ENV": "prod",
+                    "APP_ENVIRONMENT": "production",
+                    "PORT": "80"
+            }
+            }]
+}
