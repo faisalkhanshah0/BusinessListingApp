@@ -1,12 +1,12 @@
 var dauth = 'admin';
-var unamy = 'random_user';
+var unamy = 'random';
 var dbata = 'frs_business_listing_app_db';
 const express = require('express');
 const router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 
-var poxy = `${unamy}@123`;
+var poxy = `${unamy}123`;
 var protoname = 'mongodb';
 var murl = `${protoname}://${unamy}:${poxy}@13.251.197.63:27017/${dbata}?authSource=${dauth}`
 // Connect
