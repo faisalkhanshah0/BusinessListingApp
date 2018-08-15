@@ -26,7 +26,7 @@ let response = {
     message: null
 };
 //test routes
-router.get('/a', (req, res) => {
+router.get('/', (req, res) => {
   res.json({
       message : 'abc'
   });
