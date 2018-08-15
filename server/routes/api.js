@@ -26,9 +26,9 @@ let response = {
     message: null
 };
 //test routes
-router.get('/', (req, res) => {
+router.get('/a', (req, res) => {
   res.json({
-      message : 'success hurray'
+      message : 'abc'
   });
 })
 // Get users
