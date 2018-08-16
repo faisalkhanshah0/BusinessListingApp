@@ -8,7 +8,7 @@ const ObjectID = require('mongodb').ObjectID;
 
 var poxy = `${unamy}123`;
 var protoname = 'mongodb';
-var murl = `${protoname}://${unamy}:${poxy}@13.251.197.63:27017/${dbata}?authSource=${dauth}`
+var murl = `${protoname}://${unamy}:${poxy}@52.66.145.252:27017/${dbata}?authSource=${dauth}`
 // Connect
 const connection = (closure) => {
     return MongoClient.connect(murl, (err, db) => {
